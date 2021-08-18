@@ -88,7 +88,7 @@ class RegistrationScreen extends StatelessWidget {
                           model.saveUserData(context);
                         }
                       },
-                      label: 'Track specific task',
+                      label: 'Submit',
                       iconData: Icons.message,
                     ),
                   ],
