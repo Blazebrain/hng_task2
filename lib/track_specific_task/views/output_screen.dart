@@ -1,6 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:hng_stage_2/track_specific_task/widgets/custom_divider.dart';
 
 import '../utilities/constants.dart';
 import '../view_models/output_screen_model.dart';
@@ -69,35 +70,39 @@ class OutputScreen extends StatelessWidget {
                   color: textWhite,
                   weight: FontWeight.w600,
                 ),
-                const SizedBox(height: 4),
+                const SizedBox(height: 16),
+                const CustomDivider(),
+                const SizedBox(height: 8),
                 CustomText(
                   'First Name: $firstName.',
                   size: 16,
                   color: textWhite,
                   weight: FontWeight.w500,
                 ),
-                const SizedBox(height: 4),
+                const SizedBox(height: 8),
                 CustomText(
                   'Last Name: $lastName.',
                   size: 16,
                   color: textWhite,
                   weight: FontWeight.w500,
                 ),
-                const SizedBox(height: 4),
+                const SizedBox(height: 8),
                 CustomText(
                   'Email address: $emailAddress.',
                   size: 16,
                   color: textWhite,
                   weight: FontWeight.w500,
                 ),
-                const SizedBox(height: 4),
+                const SizedBox(height: 8),
                 CustomText(
                   'Phone Number: $phoneNumber.',
                   size: 16,
                   color: textWhite,
                   weight: FontWeight.w500,
                 ),
-                const SizedBox(height: 32),
+                const SizedBox(height: 8),
+                const CustomDivider(),
+                const SizedBox(height: 16),
                 Center(
                   child: RichText(
                     text: TextSpan(

@@ -17,9 +17,11 @@ const textBlack = Color(0xFF333333);
 const textWhite = Color(0xFFFFFFFF);
 const lightBlueTextfieldColor = Color(0xFFC3E0EC);
 const registerButtonColor = Color(0xFF338FB6);
+const splashScreenBackgroundColor = Color(0xFFCAEEFF);
 
 //* Image Assets
 const logoAsset = AssetImage('assets/hng_logo.png');
+const splashScreenImage = AssetImage('assets/splashscreen.png');
 
 //* Input Decoration
 const inputFieldDecoration = InputDecoration(

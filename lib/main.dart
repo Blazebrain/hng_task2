@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'track_specific_task/views/welcome_screen.dart';
+import 'track_specific_task/views/splashscreen.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Material App',
-      home: WelcomeScreen(),
+      home: SplashScreen(),
     );
   }
 }

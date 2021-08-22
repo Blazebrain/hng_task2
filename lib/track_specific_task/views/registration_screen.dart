@@ -7,6 +7,7 @@ import '../widgets/custom_button.dart';
 import '../widgets/custom_text.dart';
 import '../widgets/custom_textfield.dart';
 
+// ignore: must_be_immutable
 class RegistrationScreen extends StatelessWidget {
   RegistrationScreen({Key? key}) : super(key: key);
   RegScreenViewModel model = RegScreenViewModel();
